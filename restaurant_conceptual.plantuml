@@ -1,0 +1,30 @@
+@startuml
+   class Restaurant{
+      name
+      address
+   }
+
+   class Menu{
+      name       
+   }
+
+   class Dish{
+      name
+      type
+      photo
+      price
+   }
+
+   class Ingredient{
+      name
+      quantity
+      price
+   }
+   
+   '1..* - Restaurant can have 1 or more menus'
+   '1 - Menus belong to only 1 restaurant'
+   Restaurant "1" -right-> "1..*" Menu : has
+   Menu "1" -right-> "1..*" Dish : contain
+   Dish "1..*" -right-> "1..*" Ingredient : made from
+    
+@enduml
