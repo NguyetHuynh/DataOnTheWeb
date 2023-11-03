@@ -1,0 +1,38 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "Dish-Passau.csv",
+    "tableSchema":{
+        "columns": [{
+            "name": "ID",
+            "titles": "ID",
+            "dc:description": "Id of the dish",
+            "datatype": "integer",
+            "required": true
+        },{
+            "name": "Name",
+            "titles": "Name",
+            "dc:description": "Name of the dish",
+            "datatype": "string",
+            "required": true
+        },{
+            "name": "Type",
+            "titles": "Type",
+            "dc:description": "Type of the dish",
+            "datatype": "string",
+            "required": true
+        },{
+            "name": "Price",
+            "titles": "Price",
+            "dc:description": "Price of the ingredient",
+            "datatype": "float",
+            "required": true
+        },{
+            "name": "MenuID",
+            "titles": "Possessive Menu",
+            "dc:description": "Which menu this dish belongs to",
+            "datatype": "integer",
+            "required": true
+        }],
+        "primaryKey": "ID"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "Menu-Passau.csv",
+    "tableSchema":{
+        "columns": [{
+            "name": "ID",
+            "titles":"ID",
+            "dc:description":"Id of the menu ",
+            "datatype": "integer",
+            "required": true
+        },{
+            "name": "Name",
+            "titles":"Name",
+            "dc:description":"Name of the menu",
+            "datatype": "string",
+            "required": true
+        },{
+            "name": "RestaurantOwner",
+            "titles":"Restaurant Owner",
+            "dc:description":"The restaurant possess this menu",
+            "datatype": "integer",
+            "required": true
+        }],
+        "primaryKey": "ID"
+    }
+}

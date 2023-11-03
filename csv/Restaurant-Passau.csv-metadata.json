@@ -1,0 +1,26 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "Restaurant-Passau.csv",
+    "tableSchema":{
+        "columns": [{
+            "name": "ID",
+            "titles":"ID",
+            "dc:description":"Id of the restaurant ",
+            "datatype": "integer",
+            "required": true
+        },{
+            "name": "Name",
+            "titles":"Name",
+            "dc:description":"Name of the restaurant",
+            "datatype": "string",
+            "required": true
+        },{
+            "name": "Address",
+            "titles":"Address",
+            "dc:description":"Address of the restaurant",
+            "datatype": "string",
+            "required": true
+        }],
+        "primaryKey": "ID"
+    }
+}
