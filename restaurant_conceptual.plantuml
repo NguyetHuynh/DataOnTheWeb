@@ -11,13 +11,13 @@
    class Dish{
       name
       type
-      photo
       price
    }
 
    class Ingredient{
       name
       quantity
+      unit
       price
    }
    
