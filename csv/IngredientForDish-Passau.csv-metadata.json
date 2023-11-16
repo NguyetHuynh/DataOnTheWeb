@@ -5,13 +5,13 @@
         "columns": [{
             "name": "DishID",
             "titles": "Dish ID",
-            "dc:description": "ID of the dish",
+            "dc:description": "ID of the dish, reference from Dish",
             "datatype": "integer",
             "required": true
         },{
             "name": "IngredientID",
             "titles": "Ingredient ID",
-            "dc:description": "ID of the ingredient that need to make this dish",
+            "dc:description": "ID of the ingredient that need to make this dish, reference from Ingredient",
             "datatype": "integer",
             "required": true
         }]

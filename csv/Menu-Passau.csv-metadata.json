@@ -11,7 +11,7 @@
         },{
             "name": "Name",
             "titles":"Name",
-            "dc:description":"Name of the menu",
+            "dc:description":"Name of the menu, which represent type of menu such as Vegetarian, Breakfast, Pizza, etc.",
             "datatype": "string",
             "required": true
         },{

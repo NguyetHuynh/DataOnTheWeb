@@ -17,7 +17,7 @@
         },{
             "name": "Type",
             "titles": "Type",
-            "dc:description": "Type of the dish",
+            "dc:description": "Type of the dish, such as Vegetarian, Breakfast, Pizza, etc.",
             "datatype": "string",
             "required": true
         },{
@@ -29,7 +29,7 @@
         },{
             "name": "MenuID",
             "titles": "Possessive Menu",
-            "dc:description": "Which menu this dish belongs to",
+            "dc:description": "Which menu this dish belongs to. Get this value from Menu.",
             "datatype": "integer",
             "required": true
         }],
