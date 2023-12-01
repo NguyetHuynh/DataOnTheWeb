@@ -1,0 +1,174 @@
+[
+    {
+        "id": 1,
+        "name": "Amazing Factory Grill & Steak House",
+        "address": {            
+            "street": "Ort",
+            "street-number": 9,
+            "post-code": "94032",
+            "city": "Passau"
+        },
+        "menu": [
+            {
+                "id": 1,
+                "name": "Vegetarian",
+                "dish": [
+                    {
+                        "id": 1,
+                        "name": "Coconut Soup",
+                        "type": "Vegetarian",
+                        "price": 2.00,
+                        "ingredient": [
+                            {
+                                "id": 1,
+                                "name": "Coconut Milk"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Mushroom"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Carrot"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Pizza with Mushroom",
+                        "type": "Vegetarian",
+                        "price": 9.00,
+                        "ingredient":[
+                            {
+                                "id": 1,
+                                "name": "Flour"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Mushroom"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Mozzarella Cheese"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Beef",
+                "dish": [
+                    {                        
+                        "id": 1,
+                        "name": "Goulash",
+                        "type": "Beef",
+                        "price": 9.00,
+                        "ingredient":[
+                            {
+                                "id": 1,
+                                "name": "Beef"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Tomato Sauce"
+                            },
+                            {
+                                "id": 3,
+                                "name": "Soured Cream"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]        
+    },
+    {
+        "id": 2,
+        "name": "Am Paulusbogen",
+        "address": {
+            "street": "Rindermarkt",
+            "street-number": 2,
+            "post-code": "94032",
+            "city": "Passau"
+        },
+        "menu": [
+            {
+                "id": 1,
+                "name": "Breakfast",
+                "dish":[
+                    {
+                        "id": 1,
+                        "name": "Potatoes Pancake",
+                        "type": "Breakfast",
+                        "price": 3.00,
+                        "ingredient": [
+                            {
+                                "id": 1,
+                                "name": "Flour"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Potato"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "name": "Honey Waffle",
+                        "type": "Breakfast",
+                        "price": 5.00,
+                        "ingredient": [
+                            {
+                                "id": 1,
+                                "name": "Flour"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Honey"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Drink",
+                "dish":[
+                    {
+                        "id": 1,
+                        "name": "Cappuccino",
+                        "type": "Drink",
+                        "price": 3.00,
+                        "ingredient": [
+                            {
+                                "id": 1,
+                                "name": "Coffee"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Steamed Milk"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Lemon Tea",
+                        "type": "Drink",
+                        "price": 3.00,
+                        "ingredient": [
+                            {
+                                "id": 1,
+                                "name": "Tea"
+                            },
+                            {
+                                "id": 2,
+                                "name": "Lemon Juice"
+                            }
+                        ]
+                    }
+                ]
+            }          
+        ]
+    }
+]

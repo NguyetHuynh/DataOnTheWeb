@@ -1,0 +1,93 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "./Restaurant-Passau.json",
+    "title": "Restaurant",
+    "description": "A database for restaurant in Passau",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "integer",
+                "title": "ID",
+                "description": "Identifier for restaurant in this database"
+            },
+            "name": {
+                "type": "string",
+                "title": "Name of Restaurant",
+                "description": "Name of restaurant"
+            },
+            "address": {
+                "type": "object",
+                "title": "Restaurant Address",
+                "description": "Address of restaurant",
+                "properties": {                    
+                    "street": {
+                        "type": "string"
+                    },
+                    "street-number": {
+                        "type": "integer"
+                    },
+                    "post-code": {
+                        "type": "string"
+                    },
+                    "city": {
+                        "type": "string"
+                    }
+                },
+                "required": ["street-number", "street", "city"]
+            },
+            "menu": {
+                "type": "array",
+                "items":{
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "number"
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "Use to classify menu. For instance, this Vegetarian or Beef or Breakfast Menu"
+                        },
+                        "dish": {
+                            "type": "array",
+                            "description": "List of dishes in this menu",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "integer"
+                                    },
+                                    "name": {
+                                        "type": "string",
+                                        "description": "name of dish"
+                                    },
+                                    "type": {
+                                        "type": "string",
+                                        "description": "Can get some values like Vegetarian, Breakfast, Beef, ... This value should be familiar with menu's type."
+                                    },
+                                    "price": {
+                                        "type": "number"
+                                    },
+                                    "ingredient" : {
+                                        "type": "array",
+                                        "description": "List of ingredients is used to make this dish",
+                                        "items": {
+                                            "id": "integer",
+                                            "name": "string"
+                                        }
+                                    } 
+                                },
+                                "required": ["id", "name", "type", "price"] 
+                            }
+                            
+                        }                    
+                    },
+                    "required": ["name"]
+                }                
+            }
+        },        
+        "required": ["id", "name"]
+    }
+    
+}
