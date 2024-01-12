@@ -1,0 +1,88 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix res: <.../vocabulary/restaurants> .
+@prefix schema: <http://schema.org/> .
+
+res:Restaurant a rdfs:Class;
+    rdfs:subClassOf schema:Restaurant;
+    rdfs:label "Restaurant"@en;
+    rdfs:comment "A place that people can buy and eat food"@en .
+
+res:name a rdf:Property;
+    rdfs:label "restaurant name"@en;
+    rdfs:domain res:Restaurant;
+    rdfs:comment "The name of restaurant"@en .
+
+res:address a rdf:Property;
+    rdfs:subPropertyOf schema:address;
+    rdfs:label "restaurant address"@en;
+    rdfs:domain res:Restaurant;
+    rdfs:comment "The address of restaurant"@en .
+
+
+
+res:Menu a rdfs:Class;
+    rdfs:subClassOf schema:Menu;
+    rdfs:label "Menu"@en;
+    rdfs:comment "A piece of paper that list all the dish of a restaurant"@en .
+
+res:name a rdfs:Property;
+    rdfs:label "name of meu"@en;
+    rdfs:domain res:Menu;
+    rdfs:comment "This is for classifing menu. For instance, this Vegetarian or Beef or Breakfast Menu."@en .
+
+
+
+res:Dish a rdfs:Class;
+    rdfs:label "Dish"@en;
+    rdfs:comment "Food is prepared in a particular way as part of meal."@en .
+
+res:name a rdf:Property;
+    rdfs:label "dish name"@en;
+    rdfs:domain res:Dish;
+    rdfs:comment "The name of dish"@en .
+
+res:type a rdf:Property;
+    rdfs:label "type of dish"@en;
+    rdfs:domain res:Dish;
+    rdfs:comment "This is for classifing menu. It can get some values like Vegetarian, Breakfast, Beef, ... "@en .
+
+res:price a rdf:Property;
+    rdfs:label "price of dish"@en;
+    rdfs:domain res:Dish;
+    rdfs:range xsd:float
+    rdfs:comment "Price is in Euro currency."@en .
+
+
+
+res:Ingredient a rdfs:Class;
+    rdfs:label "ingredient name"@en;
+    rdfs:comment "Things that are used to make dish"@en .
+
+res:name a rdf:Property;
+    rdfs:label "name of ingredient"@en;
+    rdfs:domain res:Ingredient;
+    rdfs:comment "name of ingredient"@en .
+
+
+
+res:hasMenu a rdf:Property;
+    rdfs:subPropertyOf schema:hasMenu;
+    rdfs:label "has menu"@en;
+    rdfs:domain res:Restaurant;
+    rdfs:range res:Menu;
+    rdfs:comment "The menu belonged this restaurant."@en .
+
+res:containDish a rdf:Property;
+    rdfs:subPropertyOf schema:hasMenuItem;
+    rdfs:label "contain dishes"@en;
+    rdfs:domain res:Menu;
+    rdfs:range res:Dish;
+    rdfs:comment "Dishes are listed in this menu."@en .
+
+res:makeFrom a rdf:Property;
+    rdfs:label "make from ingredient"@en;
+    rdfs:domain res:Ingredient;
+    rdfs:range res:Ingredient;
+    rdfs:comment "List of ingredients is used to make this dish."@en .
