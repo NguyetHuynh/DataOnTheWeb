@@ -16,9 +16,6 @@
 
    class Ingredient{
       name
-      quantity
-      unit
-      price
    }
    
    '1..* - Restaurant can have 1 or more menus'

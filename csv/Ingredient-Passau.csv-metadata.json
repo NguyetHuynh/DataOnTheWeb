@@ -14,24 +14,6 @@
             "dc:description": "Name of the ingredient",
             "datatype": "string",
             "required": true
-        },{
-            "name": "Quantity",
-            "titles":"Quantity",
-            "dc:description": "Quantity of the ingredient",
-            "datatype": "float",
-            "required": true
-        },{
-            "name": "Unit",
-            "titles":"Unit",
-            "dc:description": "Unit of quantity",
-            "datatype": "string",
-            "required": true
-        },{
-            "name": "Price",
-            "titles":"Price",
-            "dc:description": "Price of the ingredient",
-            "datatype": "float",
-            "required": true
         }],
         "primaryKey": "ID"
     }
