@@ -1,38 +1,63 @@
 {
-    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "https://example.com/id",
+    "@context": [
+        "https://raw.githubusercontent.com/CLARIAH/COW/master/csvw.json",
+        {
+            "@language": "en",
+            "@base": "https://example.com/id"
+        },{
+            "dc": "http://purl.org/dc/terms/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "res": "https://example.com/vocabulary/restaurants"
+        }
+    ],
+    "dialect": {
+        "delimiter": ",",
+        "encoding": "UTF-8",
+        "quoteChar": "\""
+    },
     "url": "Dish-Passau.csv",
     "tableSchema":{
+        "aboutUrl": "{ID}",
+        "primaryKey": "ID",
         "columns": [{
             "name": "ID",
             "titles": "ID",
             "dc:description": "Id of the dish",
-            "datatype": "integer",
+            "datatype": "xsd:integer",
             "required": true
         },{
             "name": "Name",
             "titles": "Name",
             "dc:description": "Name of the dish",
-            "datatype": "string",
+            "datatype": "xsd:string",
+            "propertyUrl": "res:name",
             "required": true
         },{
             "name": "Type",
             "titles": "Type",
             "dc:description": "Type of the dish, such as Vegetarian, Breakfast, Pizza, etc.",
-            "datatype": "string",
+            "datatype": "xsd:string",
+            "propertyUrl": "res:type",
             "required": true
         },{
             "name": "Price",
             "titles": "Price",
             "dc:description": "Price of the ingredient",
-            "datatype": "float",
+            "datatype": "xsd:float",
+            "propertyUrl": "res:price",
             "required": true
         },{
             "name": "MenuID",
             "titles": "Possessive Menu",
             "dc:description": "Which menu this dish belongs to. Get this value from Menu.",
-            "datatype": "integer",
+            "datatype": "xsd:integer",
             "required": true
-        }],
-        "primaryKey": "ID"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "res:Dish"
+        }]
     }
 }

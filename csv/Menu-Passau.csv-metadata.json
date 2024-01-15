@@ -1,26 +1,49 @@
 {
-    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "https://example.com/id",
+    "@context": [
+        "https://raw.githubusercontent.com/CLARIAH/COW/master/csvw.json",
+        {
+            "@language": "en",
+            "@base": "https://example.com/id"
+        },{
+            "dc": "http://purl.org/dc/terms/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "res": "https://example.com/vocabulary/restaurants"
+        }
+    ],
+    "dialect": {
+        "delimiter": ",",
+        "encoding": "UTF-8",
+        "quoteChar": "\""
+    },
     "url": "Menu-Passau.csv",
     "tableSchema":{
+        "aboutUrl": "{ID}",
+        "primaryKey": "ID",
         "columns": [{
             "name": "ID",
             "titles":"ID",
             "dc:description":"Id of the menu ",
-            "datatype": "integer",
+            "datatype": "xsd:integer",
             "required": true
         },{
             "name": "Name",
             "titles":"Name",
             "dc:description":"Name of the menu, which represent type of menu such as Vegetarian, Breakfast, Pizza, etc.",
-            "datatype": "string",
+            "datatype": "xsd:string",
+            "propertyUrl": "res:name",
             "required": true
         },{
             "name": "RestaurantOwner",
             "titles":"Restaurant Owner",
             "dc:description":"The restaurant possess this menu",
-            "datatype": "integer",
+            "datatype": "xsd:integer",
             "required": true
-        }],
-        "primaryKey": "ID"
+        },
+        {
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "res:Menu"
+        }]
     }
 }
