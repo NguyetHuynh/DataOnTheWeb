@@ -1,0 +1,59 @@
+<https://example.com/2> <https://example.com/idvocab/ID> "2"^^<http://www.w3.org/2001/XMLSchema#integer> <https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/1> <https://example.com/idvocab/ID> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/2> <res:name> "Breakfast"^^<http://www.w3.org/2001/XMLSchema#string> <https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <res:Menu> <https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <res:Menu> <https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/1> <res:name> "Vegetarian"^^<http://www.w3.org/2001/XMLSchema#string> <https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> .
+
+<https://example.com/idMenu-Passau/nanopublication/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/ns/prov#wasGeneratedBy> <https://github.com/CLARIAH/wp4-converters> <https://example.com/idMenu-Passau/pubinfo/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/idMenu-Passau/nanopublication/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/ns/prov#generatedAtTime> "2024-01-22T15:47:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://example.com/idMenu-Passau/pubinfo/7b8b6fb3/2024-01-22T15:47> .
+_:Nd5222b0703c54723b080fcd66fa3426e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N40fc6f03b3ac45f1bda7b0d3be3722ca <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N40fc6f03b3ac45f1bda7b0d3be3722ca <http://www.w3.org/ns/csvw#propertyUrl> <res:name> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:Nc1544f0376a64198836ee9c5aa57f668 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N5389c78d18a245e4b55ea4b7f560e377 <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N40fc6f03b3ac45f1bda7b0d3be3722ca <http://www.w3.org/ns/csvw#title> "Name"@en <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N4bf5b2617ccb4a4aa4c30ea9364a7067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nc1544f0376a64198836ee9c5aa57f668 <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N200594da164e4218955523cc072a9f9d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nd5222b0703c54723b080fcd66fa3426e <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N40fc6f03b3ac45f1bda7b0d3be3722ca <http://www.w3.org/ns/csvw#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:Nc1544f0376a64198836ee9c5aa57f668 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N4bf5b2617ccb4a4aa4c30ea9364a7067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:Nbd201ae2f6d341c695d3c122e5f3eb3f <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N5389c78d18a245e4b55ea4b7f560e377 <http://www.w3.org/ns/csvw#propertyUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N006ecf14217b49a080dd268ff55889d8 <http://www.w3.org/ns/csvw#encoding> "UTF-8" <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:Nbd201ae2f6d341c695d3c122e5f3eb3f <http://www.w3.org/ns/csvw#title> "Restaurant Owner"@en <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N6fa7fa6d28404e09ab6df351dbe341da <http://purl.org/dc/terms/description> "Id of the menu "@en <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N666d0542083449f6977b3bab4f211098 <http://www.w3.org/ns/csvw#aboutUrl> <https://example.com/_ID_> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N6fa7fa6d28404e09ab6df351dbe341da <http://www.w3.org/ns/csvw#title> "ID"@en <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N5389c78d18a245e4b55ea4b7f560e377 <http://www.w3.org/ns/csvw#virtual> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N40fc6f03b3ac45f1bda7b0d3be3722ca <http://www.w3.org/ns/csvw#datatype> <http://www.w3.org/2001/XMLSchema#string> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N6fa7fa6d28404e09ab6df351dbe341da <http://www.w3.org/ns/csvw#name> "ID" <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N006ecf14217b49a080dd268ff55889d8 <http://www.w3.org/ns/csvw#delimiter> "," <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N666d0542083449f6977b3bab4f211098 <http://www.w3.org/ns/csvw#column> _:N200594da164e4218955523cc072a9f9d <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:Nd5222b0703c54723b080fcd66fa3426e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:N4bf5b2617ccb4a4aa4c30ea9364a7067 <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/id> <http://www.w3.org/ns/csvw#url> "Menu-Passau.csv"^^<http://www.w3.org/2001/XMLSchema#anyURI> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N40fc6f03b3ac45f1bda7b0d3be3722ca <http://www.w3.org/ns/csvw#name> "Name" <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:Nbd201ae2f6d341c695d3c122e5f3eb3f <http://purl.org/dc/terms/description> "The restaurant possess this menu"@en <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:Nbd201ae2f6d341c695d3c122e5f3eb3f <http://www.w3.org/ns/csvw#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N200594da164e4218955523cc072a9f9d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:N6fa7fa6d28404e09ab6df351dbe341da <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/id> <http://www.w3.org/ns/csvw#dialect> _:N006ecf14217b49a080dd268ff55889d8 <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N666d0542083449f6977b3bab4f211098 <http://www.w3.org/ns/csvw#primaryKey> "ID" <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/ns/prov#generatedAtTime> "2024-01-22T15:47:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/_ID_> <http://www.w3.org/ns/prov#wasDerivedFrom> "https://example.com/{ID}"^^<http://www.w3.org/2001/XMLSchema#string> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N006ecf14217b49a080dd268ff55889d8 <http://www.w3.org/ns/csvw#quoteChar> "\"" <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.com/id7b8b6fb38bf219e5a7be09ec6ae688a8c8d20c77> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N5389c78d18a245e4b55ea4b7f560e377 <http://www.w3.org/ns/csvw#valueUrl> <res:Menu> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N6fa7fa6d28404e09ab6df351dbe341da <http://www.w3.org/ns/csvw#required> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.com/id> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:Nbd201ae2f6d341c695d3c122e5f3eb3f <http://www.w3.org/ns/csvw#datatype> <http://www.w3.org/2001/XMLSchema#integer> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N6fa7fa6d28404e09ab6df351dbe341da <http://www.w3.org/ns/csvw#datatype> <http://www.w3.org/2001/XMLSchema#integer> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:Nbd201ae2f6d341c695d3c122e5f3eb3f <http://www.w3.org/ns/csvw#name> "RestaurantOwner" <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+_:N40fc6f03b3ac45f1bda7b0d3be3722ca <http://purl.org/dc/terms/description> "Name of the menu, which represent type of menu such as Vegetarian, Breakfast, Pizza, etc."@en <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/id> <http://www.w3.org/ns/csvw#tableSchema> _:N666d0542083449f6977b3bab4f211098 <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> .
+<https://example.com/idMenu-Passau/nanopublication/7b8b6fb3/2024-01-22T15:47> <http://www.nanopub.org/nschema#hasProvenance> <https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+<https://example.com/idMenu-Passau/nanopublication/7b8b6fb3/2024-01-22T15:47> <http://www.nanopub.org/nschema#hasAssertion> <https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+<https://example.com/idMenu-Passau/nanopublication/7b8b6fb3/2024-01-22T15:47> <http://www.nanopub.org/nschema#hasPublicationInfo> <https://example.com/idMenu-Passau/pubinfo/7b8b6fb3/2024-01-22T15:47> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+<https://example.com/id7b8b6fb38bf219e5a7be09ec6ae688a8c8d20c77> <https://example.com/idvocab/path> "Menu-Passau.csv"^^<http://www.w3.org/2001/XMLSchema#string> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+<https://example.com/idMenu-Passau/assertion/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.nanopub.org/nschema#Assertion> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+<https://example.com/id7b8b6fb38bf219e5a7be09ec6ae688a8c8d20c77> <https://example.com/idvocab/sha1_hash> "7b8b6fb38bf219e5a7be09ec6ae688a8c8d20c77"^^<http://www.w3.org/2001/XMLSchema#string> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+<https://example.com/idMenu-Passau/provenance/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.nanopub.org/nschema#Provenance> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+<https://example.com/idMenu-Passau/pubinfo/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.nanopub.org/nschema#PublicationInfo> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+<https://example.com/idMenu-Passau/nanopublication/7b8b6fb3/2024-01-22T15:47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.nanopub.org/nschema#Nanopublication> <urn:uuid:47c93ab2-f37f-4e67-b207-f010d2adb928> .
+
